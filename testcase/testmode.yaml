@@ -1,0 +1,86 @@
+      -
+       number: 01
+       url: http://sandbox-xinli.fxz365.com/api/payments/config
+       method: POST
+       detail: 第二个yaml
+       ifneed: n
+       params:
+           # order_id: "LJXL158641646009500020"
+       type: data
+       body:
+            order_id: "LJXL158641646009500020"
+       headers:
+
+       cookies:
+
+       check:
+            status_code: 200
+            order_id: LJXL158641646009500020
+
+      -
+       number: 02
+       url: https://sandbox-app-api.yiqiwen.cn/v1/user/information
+       method: GET
+       detail: 用户信息
+       ifneed: y
+       params:
+
+       type:
+       body:
+
+       headers:
+           YQW-Token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1ODk3ODM1MjIwMDAwMDAyMCIsImlhdCI6MTU5NzA1MzE3MiwiZXhwIjoxNjI4NTg5MTcyfQ.7quJQYuWlANmjYPXb9YLzRGCGzIS2RAmQ1SOG9kkFpI"
+           API-Version: "v1"
+           App: "Android_Lingji_Dashi"
+           AppID: "10086"
+           Version: "1.8.3"
+           System: "Xiaomi#Redmi Note 4X#nikel#23#6.0"
+           Channel: "lingji_xiaomi"
+           Lang: "zh_cn"
+           DeviceId: "4c672cf4c2693bb6"
+           platform: "23"
+           Package-Name: "com.mmc.linghit"
+           Market-Code: "android_xiaomi_market"
+           Host: "sandbox-app-api.yiqiwen.cn"
+           Connection: "Keep-Alive"
+           Accept-Encoding: "gzip"
+
+       cookies:
+
+       check:
+            status_code: 200
+            msg: "处理成功"
+      -
+       number: 03
+       url: https://sandbox-app-api.yiqiwen.cn/v1/teacher/serve/assign
+       method: GET
+       detail: 直播间服务推荐
+       ifneed: n
+       params:
+           uid: "155177351500000080"
+           serve_ids: "114"
+       type:
+       body:
+
+       headers:
+           YQW-Token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC95ZGFwaS5saW5naGl0LmNvbSIsImF1ZCI6IjE1ODk3ODM1MjIwMDAwMDAyMCIsImlhdCI6MTU5NzA1MzE3MiwiZXhwIjoxNjI4NTg5MTcyfQ.7quJQYuWlANmjYPXb9YLzRGCGzIS2RAmQ1SOG9kkFpI"
+           API-Version: "v1"
+           App: "Android_Lingji_Dashi"
+           AppID: "10086"
+           Version: "1.8.3"
+           System: "Xiaomi#Redmi Note 4X#nikel#23#6.0"
+           Channel: "lingji_xiaomi"
+           Lang: "zh_cn"
+           DeviceId: "4c672cf4c2693bb6"
+           platform: "23"
+           Package-Name: "com.mmc.linghit"
+           Market-Code: "android_xiaomi_market"
+           Host: "sandbox-app-api.yiqiwen.cn"
+           Connection: "Keep-Alive"
+           Accept-Encoding: "gzip"
+
+       cookies:
+
+       check:
+            status_code: 200
+            msg: "处理成功"

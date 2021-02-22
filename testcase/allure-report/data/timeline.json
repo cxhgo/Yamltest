@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "6AALIUSAHJS1WHR",
+    "children" : [ {
+      "name" : "8200-MainThread",
+      "children" : [ {
+        "name" : "testcase description",
+        "uid" : "f676d273eb16a8b4",
+        "parentUid" : "b56798f1cf4353625b91a450374d10be",
+        "status" : "passed",
+        "time" : {
+          "start" : 1597809030707,
+          "stop" : 1597809031384,
+          "duration" : 677
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b56798f1cf4353625b91a450374d10be"
+    } ],
+    "uid" : "2fd42e43379a650dd0c88eaddd9e6198"
+  } ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "88eff63dc3c22f8c",
+  "name" : "testcase description",
+  "fullName" : "test_two_test.TestCaseTestTwo#test_start",
+  "historyId" : "f9cdcc35f6af51fb47f46208689a6d6d",
+  "time" : {
+    "start" : 1597809001791,
+    "stop" : 1597809002328,
+    "duration" : 537
+  },
+  "description" : "TestCase ID: c93ccc79-148b-4d4b-aa35-3f23673db3eb",
+  "descriptionHtml" : "<p>TestCase ID: c93ccc79-148b-4d4b-aa35-3f23673db3eb</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "TestCase ID: c93ccc79-148b-4d4b-aa35-3f23673db3eb",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "step: /api/payments/config",
+      "time" : {
+        "start" : 1597809001807,
+        "stop" : 1597809002171,
+        "duration" : 364
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "step: /api/orders/TLFW159591653200000060",
+      "time" : {
+        "start" : 1597809002171,
+        "stop" : 1597809002311,
+        "duration" : 140
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_two_test"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaseTestTwo"
+  }, {
+    "name" : "host",
+    "value" : "6AALIUSAHJS1WHR"
+  }, {
+    "name" : "thread",
+    "value" : "8668-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_two_test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "88eff63dc3c22f8c.json",
+  "parameterValues" : [ ]
+}

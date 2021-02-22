@@ -1,0 +1,257 @@
+2020-08-12 16:31:19.332 | INFO     | httprunner.runner:test_start:451 - Start to run testcase: testcase description, TestCase ID: d351929e-8789-40f1-8ed1-46288f1a5315
+2020-08-12 16:31:19.333 | INFO     | httprunner.runner:__run_step:292 - run step begin: /api/payments/config >>>>>>
+2020-08-12 16:31:19.717 | DEBUG    | httprunner.client:request:186 - client IP: 10.1.80.11, Port: 61086
+2020-08-12 16:31:19.717 | DEBUG    | httprunner.client:request:194 - server IP: 47.111.12.76, Port: 443
+2020-08-12 16:31:19.718 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : POST
+url      : https://sandbox-cs.lingjm365.com/api/payments/config
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "application/json, text/plain, */*",
+    "Connection": "keep-alive",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Content-Length": "31",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Cookie": "lang=zh-CN; ma_id=acebbcf1-0716-4767-a3be-28333bccb2a1; gr_user_id=a91fbe93-1e80-4127-bbdf-b293c5c92bee; grwng_uid=17021336-fc2d-48a2-8c74-1f8d26dfa455; swh_yi_jing_zhan_bu_last_show=1564652055140; ai_shi_nian_wei_ji_last_show=1564652596502; ai_qian_shi_yin_yuan_last_show=1564655089953; mei_yue_liu_yue_last_show=1564655922753; sheng_ming_ling_shu_last_show=1564745004525; lian_ai_tao_hua_last_show=1568021443575; 53revisit=1568187091986; Hm_lvt_5e405002d5c49292fe521aba789da744=1566992715,1567134882,1568189684; shi_nian_da_yun_last_show=1574048789032; _ga=GA1.2.1259099948.1574835445; iUUID=00def475944d9ea25b42c8bada496461; LHMOUNT=03fe778a-7f9d-45a0-8360-6f914f5af5d9; zhen_ming_qing_ren_last_show=1575514708600; ba_zi_he_hun_shu_last_show=1575526764739; ba_zi_liu_nian_last_show=1575527365988; shi_ye_xiang_pi_last_show=1575527860157; USERIDTYPE=cookie; qian_shi_dang_an_last_show=1586862367211; ai_qing_xing_zuo_pei_dui_last_show=1586919592260; san_sheng_shi_last_show=1587106139609; mll_tou_fang_last_show=1594281028558; zhi_shang_ce_shi_last_show=1595398739262; _channel=test; ltvId=X01; Hm_lvt_da9f609f31e08775a3c08224838230b5=1595840232,1595840241,1595910472,1595916388; Hm_lpvt_da9f609f31e08775a3c08224838230b5=1595916388",
+    "Host": "sandbox-cs.lingjm365.com",
+    "Origin": "https://sandbox-cs.lingjm365.com",
+    "Referer": "https://sandbox-cs.lingjm365.com/taluoquanfangwei/pay?order_id=TLFW159591653200000060",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "HRUN-Request-ID": "HRUN-d351929e-8789-40f1-8ed1-46288f1a5315-079334"
+}
+cookies  : {
+    "53revisit": "1568187091986",
+    "Hm_lpvt_da9f609f31e08775a3c08224838230b5": "1595916388",
+    "Hm_lvt_5e405002d5c49292fe521aba789da744": "1566992715,1567134882,1568189684",
+    "Hm_lvt_da9f609f31e08775a3c08224838230b5": "1595840232,1595840241,1595910472,1595916388",
+    "LHMOUNT": "03fe778a-7f9d-45a0-8360-6f914f5af5d9",
+    "USERIDTYPE": "cookie",
+    "_channel": "test",
+    "_ga": "GA1.2.1259099948.1574835445",
+    "ai_qian_shi_yin_yuan_last_show": "1564655089953",
+    "ai_qing_xing_zuo_pei_dui_last_show": "1586919592260",
+    "ai_shi_nian_wei_ji_last_show": "1564652596502",
+    "ba_zi_he_hun_shu_last_show": "1575526764739",
+    "ba_zi_liu_nian_last_show": "1575527365988",
+    "gr_user_id": "a91fbe93-1e80-4127-bbdf-b293c5c92bee",
+    "grwng_uid": "17021336-fc2d-48a2-8c74-1f8d26dfa455",
+    "iUUID": "00def475944d9ea25b42c8bada496461",
+    "lang": "zh-CN",
+    "lian_ai_tao_hua_last_show": "1568021443575",
+    "ltvId": "X01",
+    "ma_id": "acebbcf1-0716-4767-a3be-28333bccb2a1",
+    "mei_yue_liu_yue_last_show": "1564655922753",
+    "mll_tou_fang_last_show": "1594281028558",
+    "qian_shi_dang_an_last_show": "1586862367211",
+    "san_sheng_shi_last_show": "1587106139609",
+    "sheng_ming_ling_shu_last_show": "1564745004525",
+    "shi_nian_da_yun_last_show": "1574048789032",
+    "shi_ye_xiang_pi_last_show": "1575527860157",
+    "swh_yi_jing_zhan_bu_last_show": "1564652055140",
+    "zhen_ming_qing_ren_last_show": "1575514708600",
+    "zhi_shang_ce_shi_last_show": "1595398739262"
+}
+body     : order_id=TLFW159591653200000060
+
+2020-08-12 16:31:19.723 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "openresty",
+    "Date": "Wed, 12 Aug 2020 08:33:20 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Transfer-Encoding": "chunked",
+    "Connection": "keep-alive",
+    "Vary": "Accept-Encoding",
+    "Content-Encoding": "gzip"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : {
+    "order_id": "TLFW159591653200000060",
+    "created_at": 1595916532,
+    "current_time": 1597221200,
+    "amount": 0.01,
+    "channel": "test",
+    "platform": "default",
+    "coupon": [],
+    "product": {
+        "id": "ta_luo_quan_fang_wei",
+        "name": "\u5854\u7f57\u5168\u65b9\u4f4d",
+        "alias": "\u4ed8\u8d39\u9879\u76ee\uff1a\u5728\u7ebf\u4ed8\u8d39_\u5854\u7f57\u5168\u65b9\u4f4d"
+    },
+    "pay_config": [
+        {
+            "parameters": [],
+            "channel_type": "wechat",
+            "channel_name": "wechat_qr",
+            "channel_id": 177,
+            "charge_url": "https://sandbox-cs.lingjm365.com/api/payments/pay?order_id=TLFW159591653200000060&channel_id=177",
+            "mark": "linghit_web"
+        },
+        {
+            "parameters": [],
+            "channel_type": "alipay",
+            "channel_name": "alipay_web",
+            "channel_id": 266,
+            "charge_url": "https://sandbox-cs.lingjm365.com/api/payments/pay?order_id=TLFW159591653200000060&channel_id=266",
+            "mark": "linghit_web"
+        },
+        {
+            "parameters": [],
+            "channel_type": "union",
+            "channel_name": "union_web",
+            "channel_id": 4,
+            "charge_url": "https://sandbox-cs.lingjm365.com/api/payments/pay?order_id=TLFW159591653200000060&channel_id=4",
+            "mark": "linghit_web"
+        },
+        {
+            "parameters": [],
+            "channel_type": "paypal",
+            "channel_name": "paypal_express_checkout",
+            "channel_id": 5,
+            "charge_url": "https://sandbox-cs.lingjm365.com/api/payments/pay?order_id=TLFW159591653200000060&channel_id=5",
+            "mark": "linghit_web"
+        }
+    ],
+    "status": "created",
+    "origin_amount": 50.01
+}
+
+2020-08-12 16:31:19.723 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 383.02 ms, response_length: 0 bytes
+2020-08-12 16:31:19.723 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-08-12 16:31:19.723 | INFO     | httprunner.response:validate:246 - assert headers."Content-Type" equal application/json; charset=UTF-8(str)	==> pass
+2020-08-12 16:31:19.724 | INFO     | httprunner.response:validate:246 - assert body.order_id equal TLFW159591653200000060(str)	==> pass
+2020-08-12 16:31:19.724 | INFO     | httprunner.response:validate:246 - assert body.created_at equal 1595916532(int)	==> pass
+2020-08-12 16:31:19.724 | INFO     | httprunner.response:validate:246 - assert body.amount equal 0.01(float)	==> pass
+2020-08-12 16:31:19.724 | INFO     | httprunner.response:validate:246 - assert body.channel equal test(str)	==> pass
+2020-08-12 16:31:19.725 | INFO     | httprunner.response:validate:246 - assert body.platform equal default(str)	==> pass
+2020-08-12 16:31:19.725 | INFO     | httprunner.response:validate:246 - assert body.status equal created(str)	==> pass
+2020-08-12 16:31:19.725 | INFO     | httprunner.response:validate:246 - assert body.origin_amount equal 50.01(float)	==> pass
+2020-08-12 16:31:19.728 | INFO     | httprunner.runner:__run_step:304 - run step end: /api/payments/config <<<<<<
+
+2020-08-12 16:31:19.728 | INFO     | httprunner.runner:__run_step:292 - run step begin: /api/orders/TLFW159591653200000060 >>>>>>
+2020-08-12 16:31:19.780 | DEBUG    | httprunner.client:request:186 - client IP: 10.1.80.11, Port: 61086
+2020-08-12 16:31:19.780 | DEBUG    | httprunner.client:request:194 - server IP: 47.111.12.76, Port: 443
+2020-08-12 16:31:19.781 | DEBUG    | httprunner.client:log_print:40 - 
+================== request details ==================
+method   : GET
+url      : https://sandbox-cs.lingjm365.com/api/orders/TLFW159591653200000060?rand=0.40024777386524524
+headers  : {
+    "User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 Safari/537.36",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Accept": "application/json, text/plain, */*",
+    "Connection": "keep-alive",
+    "Accept-Language": "zh-CN,zh;q=0.9",
+    "Cookie": "lang=zh-CN; ma_id=acebbcf1-0716-4767-a3be-28333bccb2a1; gr_user_id=a91fbe93-1e80-4127-bbdf-b293c5c92bee; grwng_uid=17021336-fc2d-48a2-8c74-1f8d26dfa455; swh_yi_jing_zhan_bu_last_show=1564652055140; ai_shi_nian_wei_ji_last_show=1564652596502; ai_qian_shi_yin_yuan_last_show=1564655089953; mei_yue_liu_yue_last_show=1564655922753; sheng_ming_ling_shu_last_show=1564745004525; lian_ai_tao_hua_last_show=1568021443575; 53revisit=1568187091986; Hm_lvt_5e405002d5c49292fe521aba789da744=1566992715,1567134882,1568189684; shi_nian_da_yun_last_show=1574048789032; _ga=GA1.2.1259099948.1574835445; iUUID=00def475944d9ea25b42c8bada496461; LHMOUNT=03fe778a-7f9d-45a0-8360-6f914f5af5d9; zhen_ming_qing_ren_last_show=1575514708600; ba_zi_he_hun_shu_last_show=1575526764739; ba_zi_liu_nian_last_show=1575527365988; shi_ye_xiang_pi_last_show=1575527860157; USERIDTYPE=cookie; qian_shi_dang_an_last_show=1586862367211; ai_qing_xing_zuo_pei_dui_last_show=1586919592260; san_sheng_shi_last_show=1587106139609; mll_tou_fang_last_show=1594281028558; zhi_shang_ce_shi_last_show=1595398739262; _channel=test; ltvId=X01; Hm_lvt_da9f609f31e08775a3c08224838230b5=1595840232,1595840241,1595910472,1595916388; Hm_lpvt_da9f609f31e08775a3c08224838230b5=1595916388",
+    "Host": "sandbox-cs.lingjm365.com",
+    "Referer": "https://sandbox-cs.lingjm365.com/taluoquanfangwei/pay?order_id=TLFW159591653200000060",
+    "Sec-Fetch-Mode": "cors",
+    "Sec-Fetch-Site": "same-origin",
+    "HRUN-Request-ID": "HRUN-d351929e-8789-40f1-8ed1-46288f1a5315-079728"
+}
+cookies  : {
+    "53revisit": "1568187091986",
+    "Hm_lpvt_da9f609f31e08775a3c08224838230b5": "1595916388",
+    "Hm_lvt_5e405002d5c49292fe521aba789da744": "1566992715,1567134882,1568189684",
+    "Hm_lvt_da9f609f31e08775a3c08224838230b5": "1595840232,1595840241,1595910472,1595916388",
+    "LHMOUNT": "03fe778a-7f9d-45a0-8360-6f914f5af5d9",
+    "USERIDTYPE": "cookie",
+    "_channel": "test",
+    "_ga": "GA1.2.1259099948.1574835445",
+    "ai_qian_shi_yin_yuan_last_show": "1564655089953",
+    "ai_qing_xing_zuo_pei_dui_last_show": "1586919592260",
+    "ai_shi_nian_wei_ji_last_show": "1564652596502",
+    "ba_zi_he_hun_shu_last_show": "1575526764739",
+    "ba_zi_liu_nian_last_show": "1575527365988",
+    "gr_user_id": "a91fbe93-1e80-4127-bbdf-b293c5c92bee",
+    "grwng_uid": "17021336-fc2d-48a2-8c74-1f8d26dfa455",
+    "iUUID": "00def475944d9ea25b42c8bada496461",
+    "lang": "zh-CN",
+    "lian_ai_tao_hua_last_show": "1568021443575",
+    "ltvId": "X01",
+    "ma_id": "acebbcf1-0716-4767-a3be-28333bccb2a1",
+    "mei_yue_liu_yue_last_show": "1564655922753",
+    "mll_tou_fang_last_show": "1594281028558",
+    "qian_shi_dang_an_last_show": "1586862367211",
+    "san_sheng_shi_last_show": "1587106139609",
+    "sheng_ming_ling_shu_last_show": "1564745004525",
+    "shi_nian_da_yun_last_show": "1574048789032",
+    "shi_ye_xiang_pi_last_show": "1575527860157",
+    "swh_yi_jing_zhan_bu_last_show": "1564652055140",
+    "zhen_ming_qing_ren_last_show": "1575514708600",
+    "zhi_shang_ce_shi_last_show": "1595398739262"
+}
+body     : None
+
+2020-08-12 16:31:19.781 | DEBUG    | httprunner.client:log_print:40 - 
+================== response details ==================
+status_code : 200
+headers  : {
+    "Server": "openresty",
+    "Date": "Wed, 12 Aug 2020 08:33:20 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "678",
+    "Connection": "keep-alive"
+}
+cookies  : {}
+encoding : UTF-8
+content_type : application/json; charset=UTF-8
+body     : {
+    "order_id": "TLFW159591653200000060",
+    "channel": "test",
+    "schannel": "",
+    "amount": 0.01,
+    "origin_amount": 50.01,
+    "status": "created",
+    "phone": "",
+    "is_send_phone": "no",
+    "email": "",
+    "is_send_email": "no",
+    "created_at": "2020-07-28 14:08:52",
+    "is_free": "no",
+    "attributes": [
+        {
+            "ai_qing": "22",
+            "cai_fu": "29",
+            "shi_ye": "7",
+            "name": "\u4e2a\u521a\u53d1\u7684",
+            "gender": "female"
+        }
+    ],
+    "extend_info": [],
+    "next": "/taluoquanfangwei/pay?order_id=TLFW159591653200000060",
+    "product": {
+        "id": "ta_luo_quan_fang_wei",
+        "name": "\u5728\u7ebf\u4ed8\u8d39_\u5854\u7f57\u5168\u65b9\u4f4d",
+        "goods_id": "",
+        "amount": 0.01,
+        "origin_amount": 50.01,
+        "index_url": "",
+        "description": "\u5854\u7f57\u5168\u65b9\u4f4d"
+    },
+    "pay_basis": {
+        "name": "default"
+    }
+}
+
+2020-08-12 16:31:19.785 | INFO     | httprunner.client:request:218 - status_code: 200, response_time(ms): 51.0 ms, response_length: 0 bytes
+2020-08-12 16:31:19.785 | INFO     | httprunner.response:validate:246 - assert status_code equal 200(int)	==> pass
+2020-08-12 16:31:19.785 | INFO     | httprunner.response:validate:246 - assert headers."Content-Type" equal application/json; charset=UTF-8(str)	==> pass
+2020-08-12 16:31:19.785 | INFO     | httprunner.response:validate:246 - assert body.order_id equal TLFW159591653200000060(str)	==> pass
+2020-08-12 16:31:19.786 | INFO     | httprunner.response:validate:246 - assert body.channel equal test(str)	==> pass
+2020-08-12 16:31:19.786 | INFO     | httprunner.response:validate:246 - assert body.schannel equal (str)	==> pass
+2020-08-12 16:31:19.786 | INFO     | httprunner.response:validate:246 - assert body.amount equal 0.01(float)	==> pass
+2020-08-12 16:31:19.786 | INFO     | httprunner.response:validate:246 - assert body.origin_amount equal 50.01(float)	==> pass
+2020-08-12 16:31:19.786 | INFO     | httprunner.response:validate:246 - assert body.status equal created(str)	==> pass
+2020-08-12 16:31:19.787 | INFO     | httprunner.response:validate:246 - assert body.phone equal (str)	==> pass
+2020-08-12 16:31:19.787 | INFO     | httprunner.response:validate:246 - assert body.email equal (str)	==> pass
+2020-08-12 16:31:19.787 | INFO     | httprunner.response:validate:246 - assert body.created_at equal 2020-07-28 14:08:52(str)	==> pass
+2020-08-12 16:31:19.787 | INFO     | httprunner.response:validate:246 - assert body.is_free equal no(str)	==> pass
+2020-08-12 16:31:19.787 | INFO     | httprunner.response:validate:246 - assert body.next equal /taluoquanfangwei/pay?order_id=TLFW159591653200000060(str)	==> pass
+2020-08-12 16:31:19.788 | INFO     | httprunner.runner:__run_step:304 - run step end: /api/orders/TLFW159591653200000060 <<<<<<
+
